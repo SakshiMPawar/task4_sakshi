@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+    align-items: stretch;
+  }
+
+  .container {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .text input {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: stretch;
+  }
+
+  .button input {
+    width: 100%;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .list ul {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+
+  .list li {
+    font-size: 16px;
+  }
+}

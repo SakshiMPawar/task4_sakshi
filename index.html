@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(0, 0, 0);">
+    <div class="container">
+    <div class="text">
+    <input type="text" id="text1" placeholder="Enter Task Here">
+    </div>
+    <div class="button">
+        <input type="button" id="btn1" onclick="add()" value="Add">
+        <input type="button" id="btn2" onclick="deleteTask()" value="Delete">
+        <input type="button" id="btn3" onclick="view()" value="View">
+    </div>
+    <div class="list">
+        <ul id="tasklist"></ul>
+    </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
